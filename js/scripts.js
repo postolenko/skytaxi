@@ -39,7 +39,7 @@ $(document).ready(function() {
 
         paddingTop = ( $(".wrapper").height() - $(".center").height() - $(".footer").height() ) / 2;
 
-        $(".wrapper").css({
+        $(".content").css({
             paddingTop : paddingTop + "px"
         });
 
