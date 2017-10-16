@@ -979,3 +979,13 @@ footer {
 .dark .pagination li.active:before {
     background: rgb(51, 51, 51);
 }
+
+/*-- Responsive --*/
+
+@media only screen and (max-height: 640px) {
+
+    .footer {
+        margin-bottom: 40px;
+    }
+
+}
