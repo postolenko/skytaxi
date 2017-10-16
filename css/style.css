@@ -51,14 +51,14 @@ body {
     display: block;
     min-height: 100%;
     width: 100%;
-    max-width: 360px;
-    max-height: 620px;
-    margin: 0 auto;
-    padding-left: 2%;
-    padding-right: 2%;
     position: relative;
     z-index: 2;
-    outline: 1px solid red;
+}
+
+.row {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 2%;
 }
 
 .content {
@@ -342,6 +342,15 @@ a:active {
 
 .st-h {
     background: rgb(255, 255, 255);
+}
+
+.st-h h3 {
+    font-family: "Myriad Pro", Arial, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: normal;
+    color: #f9ca34;
+    padding: 7px 0;
 }
 
 .card-icon-block {
@@ -783,8 +792,10 @@ input.input-2 {
 .smart-hand-img {
     display: block;
     margin: 0px auto 25px auto;
-    width: 53%;
+    width: auto;
     height: auto;
+    max-width: 53%;
+    max-height: 53vh;
 }
 
 /*-- /Page 2_copy --*/
@@ -829,6 +840,9 @@ input.input-2 {
     padding: 18px 0;
 }
 
+.page-2_copy-cnt .button-block {
+    margin: 16px 0 20px 0;
+}
 
 /*-- /Page index 2 --*/
 
