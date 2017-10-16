@@ -39,11 +39,15 @@ $(document).ready(function() {
 
     function getCenterPosition() {
 
-        paddingTop = ( $(".wrapper").height() - $(".center").height() - $(".footer").height() ) / 2;
+        setTimeout(function() {
 
-        $(".content").css({
-            paddingTop : paddingTop + "px"
-        });
+            paddingTop = ( $(".wrapper").height() - $(".center").height() - $(".footer").height() ) / 2;
+
+            $(".content").css({
+                paddingTop : paddingTop + "px"
+            });
+
+        }, 200);
 
     }
 
