@@ -340,6 +340,10 @@ a:active {
 
 /*-- Page 2 --*/
 
+.st-h {
+    background: rgb(255, 255, 255);
+}
+
 .card-icon-block {
     display: block;
     width: 191px;
@@ -705,8 +709,128 @@ input.input-2 {
     margin: 81px auto 30px auto;
 }
 
-
 /*-- /Page 5 --*/
+
+/*-- Page 6 --*/
+
+.page-6 {
+    background-image: url(../img/page_6_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.two-cols-article {
+    display: table;
+    width: 100%;
+    margin: 18px 0;
+}
+
+.two-cols-article .col {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.two-cols-article .col-1 {
+    width: 58px;
+}
+
+.two-cols-article .col-2 {
+    width: auto;
+}
+
+.circle-icon {
+    width: 44px;
+}
+
+.circle-icon img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.two-cols-article p {
+    font-family: "Myriad Pro", Arial, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+    color: #ffffff;
+    padding: 0;
+}
+
+.taxi-img {
+    display: block;
+    width: 146px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: 18px;
+    margin: 0 auto;
+}
+
+.page-6-cnt .button-block {
+    margin: 129px 0 0 0;
+}
+
+/*-- /Page 6 --*/
+
+/*-- Page 2_copy --*/
+
+.page-2_copy-cnt {
+    text-align: center;
+}
+
+.smart-hand-img {
+    display: block;
+    margin: 0px auto 25px auto;
+    width: 53%;
+    height: auto;
+}
+
+/*-- /Page 2_copy --*/
+
+/*-- Page index 2 --*/
+
+.page-2_copy-cnt {
+
+}
+
+.free-icon {
+    display: block;
+    width: 98px;
+    height: 98px;
+    margin: 0 auto 19px auto;
+    text-align: center;
+    border: 1px solid #ffaf00;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.free-icon p {
+    font-family: "Myriad Pro", Arial, Verdana, sans-serif;
+    font-size: 34px;
+    line-height: 98px;
+    font-weight: normal;
+    color: #ffaf00;
+    text-transform: uppercase;
+    padding: 0 !important;
+}
+
+.taxi-big-img {
+    display: block;
+    width: 100%;
+    margin: 36px auto 20px auto;
+}
+
+.page-2_copy-cnt p {
+    padding: 18px 0;
+}
+
+
+/*-- /Page index 2 --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
@@ -721,14 +845,18 @@ footer {
 }
 
 .footer {
-    padding-bottom: 86px;
+    margin-bottom: 86px;
     padding-left: 2%;
     padding-right: 2%;
 }
 
+.footer.blue-bg {
+    background: rgb(92, 196, 229);
+}
+
 .footer .col {
     float: left;
-    padding: 10px 1%;
+    padding: 10px 1% 6px 1%;
 }
 
 .footer .col-1 {
