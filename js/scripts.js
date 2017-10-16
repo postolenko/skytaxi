@@ -30,7 +30,9 @@ $(document).ready(function() {
 
     $(function() {
 
+        $(".card_num").mask("9999-9999-9999-99999999");
 
+        $(".card_date").mask("99/99");
 
     });
 
