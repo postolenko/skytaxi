@@ -47,7 +47,7 @@ $(document).ready(function() {
                 paddingTop : paddingTop + "px"
             });
 
-        }, 100);
+        }, 50);
 
     }
 
