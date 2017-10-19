@@ -1002,10 +1002,6 @@ footer {
 
 @media only screen and (max-height: 640px) {
 
-    .footer {
-        margin-bottom: 40px;
-    }
-
     /*-- Page 2_copy --*/
 
     .page-2_copy-cnt p {
