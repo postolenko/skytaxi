@@ -41,18 +41,16 @@ $(document).ready(function() {
 
         if( $(".st-h").length > 0 ) {
 
-            // paddingTop = ( $(window).height() - $(".center").height() ) / 2  - ( $(window).height() - $(".footer").offset().top ) - $(".st-h").height();
-
-            paddingTop = ( ( $(window).height() - $(".st-h").height() ) - ( $(window).height() - $(".footer").offset().top ) ) / 2;
+            paddingTop = ( $(window).height() - $(".center").height() - $(".footer").outerHeight(true) ) / 2 - $(".st-h").height();
 
         } else {
 
-            paddingTop = ( $(window).height() - $(".center").height() - $(".footer").height() ) / 2 - ( $(window).height() - $(".footer").offset().top );
+            paddingTop = ( $(window).height() - $(".center").height() - $(".footer").outerHeight(true) ) / 2;
 
         }
 
         $(".content").css({
-            paddingTop : paddingTop + "px"
+            "padding-top" : paddingTop + "px"
         });
 
     }

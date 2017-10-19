@@ -704,6 +704,7 @@ input.input-2 {
     width: auto;
     height: auto;
     max-width: 86%;
+    max-height: 304px;
     margin: 81px auto 30px auto;
 }
 
@@ -791,6 +792,10 @@ input.input-2 {
 
 /*-- Page index 2 --*/
 
+.index2_copy-cnt {
+    text-align: center;
+}
+
 .free-icon {
     display: block;
     width: 98px;
@@ -821,11 +826,11 @@ input.input-2 {
     margin: 36px auto 20px auto;
 }
 
-.page-2_copy-cnt p {
+.index-2_copy-cnt p {
     padding: 18px 0;
 }
 
-.page-2_copy-cnt .button-block {
+.index-2_copy-cnt .button-block {
     margin: 16px 0 20px 0;
 }
 
@@ -1018,15 +1023,22 @@ footer {
 
     /*-- /Page 2_copy --*/
 
+    .page-2-cnt p {
+        padding: 11px 0 11px 0;
+    }
 
     /*-- Page 2 --*/
+
+    /*-- Page 3 --*/
 
     .card-icon-block {
         margin: 20px auto 30px auto;
     }
 
-    .page-2-cnt p {
-        padding: 11px 0 11px 0;
+    /*-- /Page 3 --*/
+
+    .page-3-cnt .submit-btn-block {
+        margin: 61px 0 0 0;
     }
 
     /*-- /Page 2 --*/
@@ -1088,7 +1100,7 @@ footer {
 
     /*-- /Page 6 --*/
 
-    /*--  Page 2_cop --*/
+    /*--  Page 2_copy --*/
 
     .page-2_copy-cnt .button-block {
         margin: 0 0 10px 0;
@@ -1100,6 +1112,6 @@ footer {
         line-height: 19px;
     }
 
-    /*--  /Page 2_cop --*/
+    /*--  /Page 2_copy --*/
 
 }
