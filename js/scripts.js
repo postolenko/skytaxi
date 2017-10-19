@@ -39,23 +39,21 @@ $(document).ready(function() {
 
     function getCenterPosition() {
 
-        // setTimeout(function() {
+        if( $(".st-h").length > 0 ) {
 
-            if( $(".st-h").length > 0 ) {
+            // paddingTop = ( $(window).height() - $(".center").height() ) / 2  - ( $(window).height() - $(".footer").offset().top ) - $(".st-h").height();
 
-                paddingTop = ( $(window).height() - $(".center").height() ) / 2  - ( $(window).height() - $(".footer").offset().top ) - $(".st-h").height();
+            paddingTop = ( ( $(window).height() - $(".st-h").height() ) - ( $(window).height() - $(".footer").offset().top ) ) / 2;
 
-            } else {
+        } else {
 
-                paddingTop = ( $(window).height() - $(".center").height() - $(".footer").height() ) / 2 - ( $(window).height() - $(".footer").offset().top );
+            paddingTop = ( $(window).height() - $(".center").height() - $(".footer").height() ) / 2 - ( $(window).height() - $(".footer").offset().top );
 
-            }
+        }
 
-            $(".content").css({
-                paddingTop : paddingTop + "px"
-            });
-
-        // }, 50);
+        $(".content").css({
+            paddingTop : paddingTop + "px"
+        });
 
     }
 
