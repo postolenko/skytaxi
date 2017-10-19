@@ -39,15 +39,23 @@ $(document).ready(function() {
 
     function getCenterPosition() {
 
-        setTimeout(function() {
+        // setTimeout(function() {
 
-            paddingTop = ( $(".wrapper").height() - $(".center").height() - $(".footer").height() ) / 2;
+            if( $(".st-h").length > 0 ) {
+
+                paddingTop = ( $(window).height() - $(".center").height() - $(".footer").height() ) / 2 - $(".st-h").height();
+
+            } else {
+
+                paddingTop = ( $(window).height() - $(".center").height() - $(".footer").height() ) / 2;
+
+            }
 
             $(".content").css({
                 paddingTop : paddingTop + "px"
             });
 
-        }, 50);
+        // }, 50);
 
     }
 

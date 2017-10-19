@@ -387,7 +387,7 @@ a:active {
 }
 
 .page-2-cnt .yellow-pill {
-    margin: 30px 0 10px 0;
+    margin: 33px 0 10px 0;
 }
 
 /*-- /Page 2 --*/
@@ -844,7 +844,7 @@ footer {
 }
 
 .footer {
-    margin-bottom: 86px;
+    margin-bottom: 70px;
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -983,10 +983,100 @@ footer {
 
 /*-- Responsive --*/
 
+@media only screen and (max-height: 680px) {
+
+    .footer {
+        margin-bottom: 60px;
+    }
+
+}
+
 @media only screen and (max-height: 640px) {
 
     .footer {
         margin-bottom: 40px;
     }
+
+    /*-- Page 2_copy --*/
+
+    .page-2_copy-cnt p {
+        padding: 7px 0;
+    }
+
+    .taxi-big-img {
+        margin: 9px auto;
+    }
+
+    /*-- /Page 2_copy --*/
+
+
+    /*-- Page 2 --*/
+
+    .card-icon-block {
+        margin: 20px auto 30px auto;
+    }
+
+    .page-2-cnt p {
+        padding: 11px 0 11px 0;
+    }
+
+    /*-- /Page 2 --*/
+
+    /*-- Page 6 --*/
+
+    .page-6-cnt .button-block {
+        margin: 40px 0 8px 0;
+    }
+
+    /*-- /Page 6 --*/
+
+}
+
+
+@media only screen and (max-height: 600px) {
+
+    .footer {
+        margin-bottom: 30px;
+    }
+
+    /*-- Page 2 --*/
+
+    .card-icon-block {
+        margin: 10px auto 10px auto;
+    }
+
+    .page-2-cnt .yellow-pill {
+        margin: 17px 0 10px 0;
+    }
+
+    .page-2-cnt {
+        padding-bottom: 20px;
+    }
+
+    /*-- /Page 2 --*/
+
+    /*-- Page 4 --*/
+
+    .cards {
+        margin: 30px auto 65px auto;
+    }
+
+    /*-- /Page 4 --*/
+
+    /*-- Page 5 --*/
+
+    .car-img {
+        margin: 34px auto 30px auto;
+    }
+
+    /*-- /Page 5 --*/
+
+    /*-- Page 6 --*/
+
+    .page-6-cnt .button-block {
+        margin: 27px 0 8px 0;
+    }
+
+    /*-- /Page 6 --*/
 
 }
