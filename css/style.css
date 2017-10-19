@@ -989,6 +989,15 @@ footer {
         margin-bottom: 60px;
     }
 
+    /*-- Page 2_copy --*/
+
+    .smart-hand-img {
+        margin: 0 auto 20px auto;
+        max-height: 43vh;
+    }
+
+    /*-- /Page 2_copy --*/
+
 }
 
 @media only screen and (max-height: 640px) {
@@ -1078,5 +1087,19 @@ footer {
     }
 
     /*-- /Page 6 --*/
+
+    /*--  Page 2_cop --*/
+
+    .page-2_copy-cnt .button-block {
+        margin: 0 0 10px 0;
+    }
+
+    .page-2_copy-cnt p {
+        padding: 5px 0;
+        font-size: 18px;
+        line-height: 19px;
+    }
+
+    /*--  /Page 2_cop --*/
 
 }

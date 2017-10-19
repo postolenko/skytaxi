@@ -43,11 +43,11 @@ $(document).ready(function() {
 
             if( $(".st-h").length > 0 ) {
 
-                paddingTop = ( $(window).height() - $(".center").height() - $(".footer").height() ) / 2 - $(".st-h").height();
+                paddingTop = ( $(window).height() - $(".center").height() ) / 2  - ( $(window).height() - $(".footer").offset().top ) - $(".st-h").height();
 
             } else {
 
-                paddingTop = ( $(window).height() - $(".center").height() - $(".footer").height() ) / 2;
+                paddingTop = ( $(window).height() - $(".center").height() - $(".footer").height() ) / 2 - ( $(window).height() - $(".footer").offset().top );
 
             }
 
